@@ -1,0 +1,69 @@
+
+
+   /* Styles for the navbar */
+.navbar {
+    /* background-color: black;  */
+    padding: 0.5rem 1rem; /* Adjust padding for a neat appearance */
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem; /* Larger font size for better prominence */
+    font-weight: bold; /* Make the brand name stand out */
+  }
+  
+  .nav-link {
+    color: #007bff; /* Change link color for a modern look */
+    margin: 0 1rem; /* Space out the navigation links */
+  }
+  
+  .nav-link.active {
+    font-weight: bold; /* Highlight the active link */
+    color: #0056b3; /* Darker color for the active link */
+  }
+  
+  .navbar-toggler-icon {
+    background-image: url('data:image/svg+xml;charset=utf8,<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30"><path stroke="%23000" stroke-width="3" d="M5 7h20M5 15h20M5 23h20"/></svg>'); /* Custom icon */
+  }
+  
+  /* Slideshow styles */
+  .slideshow {
+    margin: 0 auto;
+    overflow: hidden;
+    max-width: 1000px;
+    position: relative;
+  }
+  
+  .slideshowSlider {
+    display: flex;
+    transition: transform 2000ms ease-in-out;
+  }
+  
+  .slide {
+    min-width: 100%;
+    height: 550px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 40px;
+  }
+  
+  .slideshowDots {
+    text-align: center;
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+  }
+  
+  .slideshowDot {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 0 7px;
+    background-color: #c4c4c4;
+  }
+  
+  .slideshowDot.active {
+    background-color: #007bff; /* Active dot color */
+  }
+  

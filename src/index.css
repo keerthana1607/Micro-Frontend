@@ -1,13 +1,75 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+/* 
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+*/
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* *{ 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+body{
+  background: #f5f5f5;
+} 
+a{
+  text-decoration: none;
+  color: inherit;
+  line-height: 1;
+  cursor: pointer;
+}
+.com{
+  padding-left: 7%;
+  padding-right: 10%;
+}
+.btn{
+  background: white;
+  color: #212121;
+  padding:14px 25px;
+  font-size: 16px;
+  border-radius: 30px;
+  cursor: pointer;
+  border: 0;
+  outline: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.btn:hover{
+  background-color: grey;
+}
+.btn.dark{
+  background: #2a216f;
+  color: #fff;
+}
+.btn.dark:hover{
+  background-color: grey;
+} */
+/*---------------media---------------*/
+/* @media (max-width: 1200px) {
+.com{
+  padding-left: 5%;
+  padding-right: 5%;
+
+}
+.btn{
+  padding: 14px 32px;
+}
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;  */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  li {
+    @apply p-4
+  }
+
+  button {
+    @apply text-white border bg-indigo-600 border-indigo-600
+    hover:bg-transparent hover:text-indigo-600 rounded-md
+  }
 }

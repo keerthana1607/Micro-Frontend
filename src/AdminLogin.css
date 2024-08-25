@@ -1,0 +1,80 @@
+/* .navbar {
+    background-color: #333;
+    overflow: hidden;
+    color: white;
+  }
+  
+  .navv-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  .nav-logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+  }
+  
+  .nav-logo span {
+    margin-left: 8px;
+  }
+  
+  .nav-item {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex; 
+  }
+  
+  .nav-links {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 16px;
+    display: flex;
+    margin-left:65rem;
+    align-items: center;
+  }
+  
+  .nav-links:hover {
+    text-decoration: underline;
+  }
+  
+  .icon {
+    margin-left: 10px;
+  }
+   */
+
+
+   /* AdminLogin.css */
+
+/* body {
+  background-color: #f0f0f0;
+} */
+
+.navbar {
+  background-color: #343a40;
+}
+
+.navbar-brand, .nav-link {
+  color: #ffffff !important;
+}
+
+.nav-link:hover {
+  color: #dcdcdc !important;
+}
+
+.container {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  text-transform: none;
+}
