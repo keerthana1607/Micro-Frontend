@@ -31,6 +31,7 @@
 import React, { useState } from 'react';
 import './Main.css';
 import { FaComments } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 import Chatbot from '../Chatbot'; // Ensure path is correct
 
 const Main = () => {
@@ -48,7 +49,13 @@ const Main = () => {
           Taxes are essential financial contributions that individuals and businesses make to support government functions and public services.
           They fund critical areas such as infrastructure, education, healthcare, and social programs.
         </p>
+        <Link to="/faq" className="btn-link">
+         <button className='btnn' >Explore More 
+        <i class="fa fa-caret-right" style={{fontSize: "24px",marginLeft:"10px"}}></i>
+        </button>
+         </Link>
       </div>
+     
 
       {/* Chatbot icon button */}
       <div className="chat-icon-container">
